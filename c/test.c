@@ -1,9 +1,9 @@
 
 typedef struct Vector {
-    float a;
-    float b;
+    int a;
+    int b;
 } Vector;
 
-extern float extract_a(Vector v) {
+extern int extract_a(Vector v) {
     return v.a;
 }
